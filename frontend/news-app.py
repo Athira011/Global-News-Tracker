@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
  
 import streamlit as st
 from backend.newsscraper import fetch_google_news
-from backend.summerizer import summarize_text
+from backend.summarizer import summarize_text
 from backend.topicgrouper import group_headlines_by_topic
  
 # 🔽 Add category selector
